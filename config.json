@@ -1,0 +1,10 @@
+{
+  "default_proxy": "",
+  "max_threads": 5,
+  "scan_days": 30,
+  "timeout": 10,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  "deep_scan": true,
+  "auto_analyze": true,
+  "save_logs": true
+}
