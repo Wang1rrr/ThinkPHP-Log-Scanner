@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="ThinkPHPLogScanner",
@@ -6,11 +6,12 @@ setup(
     description="ThinkPHP日志泄露检测与利用工具",
     author="Security Tool Developer",
     author_email="security@example.com",
-    packages=find_packages(),
+    py_modules=['thinkphp_log_scanner'],
     install_requires=[
         'requests>=2.25.1',
         'beautifulsoup4>=4.9.3',
-        'lxml>=4.6.3'
+        'lxml>=4.6.3',
+        'urllib3>=1.26.5'
     ],
     entry_points={
         'console_scripts': [

@@ -15,8 +15,22 @@
 - 导出扫描报告
 
 ## 系统要求
-- Python 3.6+
+- Python 3.8+
 - Windows / Linux / macOS
+- Python 环境需包含 Tkinter 图形界面支持。
+
+## 安装为命令行启动程序
+在仓库根目录运行：
+```bash
+python -m pip install .
+```
+
+安装完成后可使用以下命令启动图形界面：
+```bash
+thinkphp-scanner
+```
+
+如果直接运行源码，可按下方步骤安装依赖并启动。
 
 ## 安装依赖
 ```bash
